@@ -1,0 +1,192 @@
+:root {
+    --navy: #14213d;
+    --blue: #2563eb;
+    --soft: #f3f6fb;
+    --ink: #243047;
+}
+
+body {
+    margin: 0;
+    background: var(--soft);
+    color: var(--ink);
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 1.7;
+}
+
+.site-nav {
+    background: var(--navy);
+}
+
+.navbar .nav-link {
+    color: #dce6f7;
+    margin-left: 10px;
+}
+
+.navbar .nav-link:hover,
+.navbar .nav-link.active {
+    color: #ffffff;
+    text-decoration: underline;
+    text-underline-offset: 6px;
+}
+
+.hero-section {
+    padding: 75px 24px;
+    color: white;
+    border-radius: 24px;
+    background: linear-gradient(125deg, #14213d, #2563eb);
+}
+
+.eyebrow {
+    font-size: 0.78rem;
+    font-weight: bold;
+    letter-spacing: 3px;
+    opacity: 0.85;
+}
+
+.hero-copy {
+    max-width: 650px;
+}
+
+.section-title {
+    color: var(--navy);
+    font-weight: 700;
+    margin-bottom: 18px;
+}
+
+.profile-card,
+.interest-card,
+.content-panel,
+.fun-box {
+    background: white;
+    border-radius: 18px;
+    padding: 28px;
+    box-shadow: 0 8px 24px rgba(20, 33, 61, 0.07);
+}
+
+.profile-card {
+    text-align: center;
+    border-top: 5px solid var(--blue);
+}
+
+.profile-icon,
+.interest-icon {
+    font-size: 2.7rem;
+    margin-bottom: 12px;
+}
+
+.profile-card h3,
+.interest-card h3 {
+    color: var(--navy);
+    font-size: 1.3rem;
+    font-weight: 700;
+}
+
+.interest-card {
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.interest-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 12px 28px rgba(20, 33, 61, 0.12);
+}
+
+.interest-card a {
+    color: var(--blue);
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.interest-card a:hover {
+    text-decoration: underline;
+}
+
+.fun-box {
+    background: #e7efff;
+}
+
+.page-content {
+    padding-top: 45px;
+    padding-bottom: 55px;
+}
+
+.topic-hero {
+    text-align: center;
+    color: white;
+    padding: 55px 20px;
+    border-radius: 22px;
+    margin-bottom: 28px;
+}
+
+.topic-hero h1 {
+    font-size: clamp(2.3rem, 6vw, 4rem);
+    font-weight: 800;
+}
+
+.topic-emoji {
+    display: block;
+    font-size: 3.5rem;
+    margin-bottom: 10px;
+}
+
+.badminton-hero {
+    background: linear-gradient(120deg, #087f5b, #38a169);
+}
+
+.football-hero {
+    background: linear-gradient(120deg, #1d4ed8, #0f766e);
+}
+
+.gaming-hero {
+    background: linear-gradient(120deg, #5b21b6, #2563eb);
+}
+
+.content-panel {
+    max-width: 850px;
+    margin: auto;
+}
+
+.content-panel h2 {
+    color: var(--navy);
+    font-size: 1.45rem;
+    font-weight: 700;
+    margin-top: 12px;
+}
+
+.content-panel li {
+    margin-bottom: 8px;
+}
+
+.quote {
+    margin: 24px 0;
+    padding: 16px 20px;
+    border-left: 4px solid var(--blue);
+    background: #f1f5ff;
+    font-style: italic;
+}
+
+.small-note {
+    color: #596579;
+    font-size: 0.95rem;
+}
+
+.site-footer {
+    background: var(--navy);
+    color: #dce6f7;
+}
+
+@media (max-width: 576px) {
+    .hero-section {
+        padding: 55px 18px;
+    }
+
+    .profile-card,
+    .interest-card,
+    .content-panel,
+    .fun-box {
+        padding: 22px;
+    }
+
+    .navbar .nav-link {
+        margin-left: 0;
+    }
+}

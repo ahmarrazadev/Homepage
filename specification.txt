@@ -1,0 +1,36 @@
+HTML tags used (10+):
+1. <nav> - website navigation bar
+2. <main> - main page content
+3. <section> - groups related content
+4. <div> - layout containers
+5. <ul> - unordered lists
+6. <li> - list items
+7. <a> - links between the four pages
+8. <h1> - main page heading
+9. <h2> - section headings
+10. <h3> - card headings
+11. <p> - paragraphs
+12. <button> - interactive fun-fact button
+13. <article> - interest cards
+14. <blockquote> - highlighted quote
+15. <footer> - page footer
+16. <span> - small labels and icons
+
+CSS properties used (5+):
+1. color
+2. background
+3. margin
+4. padding
+5. font-family
+6. font-size
+7. border-radius
+8. box-shadow
+9. display
+10. line-height
+11. transition
+
+JavaScript:
+JavaScript adds a button on the homepage that displays a random fun fact when clicked.
+
+Bootstrap:
+Bootstrap provides the responsive navigation bar, grid layout, spacing, and button styling.
